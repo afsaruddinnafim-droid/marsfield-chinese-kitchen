@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Marsfield Chinese Kitchen – A family-run Chinese restaurant in Marsfield, NSW. Dine-in and takeaway. Classic Chinese comfort food since the early days." />
+  <title>Marsfield Chinese Kitchen | Classic Chinese Comfort Food</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       ANNOUNCEMENT BANNER
+  ══════════════════════════════════════════ -->
+  <div class="announcement-banner" role="banner" aria-label="Announcements">
+    <div class="container banner-inner">
+      <span class="banner-icon">🏮</span>
+      <p>
+        <strong>Lunch Specials</strong> Tues–Sun, 11am–2:30pm — Chicken, Beef, Pork or Vegetarian <strong>$8</strong> · Prawn <strong>$9</strong> — Served with fried rice or boiled rice
+      </p>
+      <span class="banner-icon">🏮</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       STICKY HEADER / NAV
+  ══════════════════════════════════════════ -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="container header-inner">
+
+      <a href="#hero" class="logo" aria-label="Marsfield Chinese Kitchen home">
+        <span class="logo-chinese" lang="zh">寶多利</span>
+        <span class="logo-divider"></span>
+        <span class="logo-english">Marsfield<br>Chinese Kitchen</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#popular">Popular</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="tel:0298685252" class="btn btn-primary header-cta" aria-label="Call us on 02 9868 5252">
+        📞 Call to Order
+      </a>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ══════════════════════════════════════════
+         HERO SECTION
+    ══════════════════════════════════════════ -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-pattern" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">Est. in Marsfield · Family Owned</div>
+        <h1 id="hero-heading">
+          A Marsfield favourite for<br />
+          <em>classic Chinese comfort food</em>
+        </h1>
+        <p class="hero-sub">
+          Three generations of home-style cooking, served with warmth since we first opened our doors on Trafalgar Place. No fuss, no frills — just real food, made with care.
+        </p>
+        <div class="hero-ctas">
+          <a href="#menu" class="btn btn-primary btn-large">View Our Menu</a>
+          <a href="tel:0298685252" class="btn btn-outline btn-large">📞 02 9868 5252</a>
+        </div>
+
+        <!-- Today's Special block -->
+        <div class="todays-special" aria-label="Today's special">
+          <div class="special-label">🍜 Today's Special</div>
+          <div class="special-text">
+            Honey Chicken with Fried Rice &nbsp;·&nbsp; <strong>$13.50</strong>
+          </div>
+          <div class="special-note">Available dine-in &amp; takeaway · While stocks last</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         ABOUT SECTION
+    ══════════════════════════════════════════ -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container about-grid">
+
+        <div class="about-deco" aria-hidden="true">
+          <div class="deco-lantern">🏮</div>
+          <div class="deco-circle"></div>
+        </div>
+
+        <div class="about-text">
+          <span class="section-label">Our Story</span>
+          <h2 id="about-heading">A kitchen rooted in family, community &amp; real flavour</h2>
+          <p>
+            Marsfield Chinese Kitchen has been feeding the Ryde community for decades. What started as a small family venture on Trafalgar Place has grown into one of the neighbourhood's most beloved dining institutions — a place where the same regulars come back week after week, and where new faces quickly become familiar ones.
+          </p>
+          <p>
+            Our recipes haven't changed much, and that's exactly the point. We cook the way our family has always cooked: generously portioned, honestly priced, and made fresh to order. Whether you're grabbing a quick lunch special, ordering a feast for the whole family, or picking up your usual on a Friday night, you'll always be treated like a regular here.
+          </p>
+          <p>
+            We're proud to be a local institution in Marsfield — and even prouder that so many of you have made us part of your family's routine.
+          </p>
+          <div class="about-values">
+            <div class="value-chip">🥢 Family recipes</div>
+            <div class="value-chip">🍱 Fresh daily</div>
+            <div class="value-chip">❤️ Community loved</div>
+            <div class="value-chip">🕐 Fast &amp; reliable</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         MENU SECTION
+    ══════════════════════════════════════════ -->
+    <section class="menu-section section" id="menu" aria-labelledby="menu-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-label">What We Serve</span>
+          <h2 id="menu-heading">Our Menu</h2>
+          <p class="section-sub">Takeaway &amp; dine-in · All dishes made fresh to order</p>
+        </div>
+
+        <!-- Menu Tabs -->
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-entrees" id="btn-entrees">Entrées</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-noodles" id="btn-noodles">Noodles &amp; Rice</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-stirfry" id="btn-stirfry">Stir-Fries</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-specials" id="btn-specials">Chef's Specials</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-veg" id="btn-veg">Vegetarian</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-lunch" id="btn-lunch">Lunch Specials</button>
+        </div>
+
+        <!-- Entrées -->
+        <div class="menu-tab-panel active" role="tabpanel" id="tab-entrees" aria-labelledby="btn-entrees">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Spring Rolls (4)</span><span class="item-price">$8.50</span></div>
+              <p class="item-desc">Crispy golden rolls filled with seasoned pork &amp; vegetables, served with sweet chilli dipping sauce.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Dim Sims (4) — Steamed or Fried</span><span class="item-price">$9.00</span></div>
+              <p class="item-desc">Classic dim sims, soft-steamed or deep-fried to order. Your choice.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Honey Prawns</span><span class="item-price">$14.50</span></div>
+              <p class="item-desc">Plump tiger prawns in a crispy batter, tossed in honey glaze with toasted sesame seeds.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">BBQ Pork Buns (3)</span><span class="item-price">$9.50</span></div>
+              <p class="item-desc">Fluffy steamed bao filled with sweet char siu pork. A Hong Kong classic.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Chicken &amp; Sweet Corn Soup</span><span class="item-price">$8.00</span></div>
+              <p class="item-desc">Velvety, comforting soup with shredded chicken, whole corn kernels and a smooth egg-white ribbon.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Prawn Toast (4)</span><span class="item-price">$10.50</span></div>
+              <p class="item-desc">Minced prawn paste pressed onto white bread and deep-fried until golden. Satisfyingly crunchy.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Noodles & Rice -->
+        <div class="menu-tab-panel" role="tabpanel" id="tab-noodles" aria-labelledby="btn-noodles">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Special Fried Rice</span><span class="item-price">$14.50</span></div>
+              <p class="item-desc">Wok-tossed long-grain rice with prawns, BBQ pork, egg, spring onion and soy.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Chicken Fried Rice</span><span class="item-price">$13.50</span></div>
+              <p class="item-desc">A family-friendly classic: tender chicken pieces, egg, peas and wok-smoked rice.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Singapore Noodles</span><span class="item-price">$15.50</span></div>
+              <p class="item-desc">Thin rice vermicelli stir-fried with egg, prawns, pork, capsicum and a fragrant curry powder.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Beef Ho Fun (Dry or Gravy)</span><span class="item-price">$16.00</span></div>
+              <p class="item-desc">Wide, silky rice noodles with tender sliced beef, bean shoots and wok hei. Choose dry-fried or in savoury gravy.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Hokkien Noodles — Chicken, Beef or Prawn</span><span class="item-price">$15.00–$16.00</span></div>
+              <p class="item-desc">Thick, chewy noodles wok-tossed with your choice of protein, seasonal vegetables and oyster sauce.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Combination Chow Mein</span><span class="item-price">$17.50</span></div>
+              <p class="item-desc">Crispy noodles topped with a rich combination sauce of chicken, beef, prawns and mixed vegetables.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stir-Fries -->
+        <div class="menu-tab-panel" role="tabpanel" id="tab-stirfry" aria-labelledby="btn-stirfry">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Honey Chicken</span><span class="item-price">$16.50</span></div>
+              <p class="item-desc">Crispy battered chicken drizzled in a house-made honey sauce. One of our most-ordered dishes.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Beef in Black Bean Sauce</span><span class="item-price">$17.00</span></div>
+              <p class="item-desc">Tender sliced beef with capsicum and onion in a deeply savoury fermented black bean sauce.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Sweet &amp; Sour Pork</span><span class="item-price">$16.50</span></div>
+              <p class="item-desc">Lightly battered pork in a tangy tomato-pineapple sauce with capsicum and onion.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Prawns in Garlic Sauce</span><span class="item-price">$19.50</span></div>
+              <p class="item-desc">Juicy prawns sautéed in a fragrant garlic-ginger sauce with snow peas and shallots.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Lemon Chicken</span><span class="item-price">$16.50</span></div>
+              <p class="item-desc">Crumbed chicken fillet served with a bright, fresh lemon sauce. A longtime customer favourite.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Mongolian Lamb</span><span class="item-price">$18.00</span></div>
+              <p class="item-desc">Thinly sliced lamb wok-tossed with leek and shallots in a rich, slightly sweet hoisin-based sauce.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chef's Specials -->
+        <div class="menu-tab-panel" role="tabpanel" id="tab-specials" aria-labelledby="btn-specials">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Peking Duck Pancakes (8)</span><span class="item-price">$28.00</span></div>
+              <p class="item-desc">Slow-roasted duck with crispy lacquered skin, served with steamed pancakes, cucumber, spring onion and hoisin.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Whole Steamed Fish — Market Price</span><span class="item-price">MP</span></div>
+              <p class="item-desc">Fresh market fish steamed with ginger and spring onion, finished tableside with a hot sesame-soy dressing.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Combination Seafood in XO Sauce</span><span class="item-price">$24.00</span></div>
+              <p class="item-desc">Prawns, scallops and calamari wok-tossed with house-made XO sauce, asparagus and shallots.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Salt &amp; Pepper Squid</span><span class="item-price">$18.50</span></div>
+              <p class="item-desc">Tender squid in a light, crispy coating seasoned with sea salt, white pepper, chilli and garlic.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Banquet for Two</span><span class="item-price">$48.00</span></div>
+              <p class="item-desc">Chef's selection: spring rolls, soup, two mains of the day and steamed rice. Perfect for sharing.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Family Feast (4 persons)</span><span class="item-price">$88.00</span></div>
+              <p class="item-desc">Four-course family spread: entrées, soup, three mains, fried rice and dessert. Call ahead to book.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vegetarian -->
+        <div class="menu-tab-panel" role="tabpanel" id="tab-veg" aria-labelledby="btn-veg">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Vegetable Fried Rice</span><span class="item-price">$12.50</span></div>
+              <p class="item-desc">Wok-tossed jasmine rice with egg, seasonal vegetables, soy and sesame. Light and satisfying.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Ma Po Tofu (Vegetarian)</span><span class="item-price">$14.00</span></div>
+              <p class="item-desc">Silken tofu in a mildly spiced bean-paste sauce with mushrooms and spring onion. Comforting and nourishing.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Stir-Fried Mixed Vegetables</span><span class="item-price">$13.00</span></div>
+              <p class="item-desc">Seasonal greens, broccoli, carrot and mushroom tossed in oyster-style sauce (vegetarian option available).</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Eggplant in Garlic Sauce</span><span class="item-price">$13.50</span></div>
+              <p class="item-desc">Tender Chinese eggplant braised with a fragrant garlic, ginger and soy glaze. A kitchen favourite.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Vegetable Spring Rolls (4)</span><span class="item-price">$8.00</span></div>
+              <p class="item-desc">Crispy rolls packed with glass noodles, shredded cabbage and carrots. Fully vegetarian.</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-top"><span class="item-name">Steamed Bok Choy with Oyster Sauce</span><span class="item-price">$10.50</span></div>
+              <p class="item-desc">Fresh baby bok choy blanched and dressed with a light oyster glaze and a drizzle of sesame oil.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lunch Specials -->
+        <div class="menu-tab-panel" role="tabpanel" id="tab-lunch" aria-labelledby="btn-lunch">
+          <div class="lunch-banner">
+            <div class="lunch-hours">🕐 Tuesday – Sunday &nbsp;·&nbsp; 11am – 2:30pm</div>
+            <p class="lunch-note">All lunch specials are served with Fried Rice or Boiled Rice</p>
+          </div>
+          <div class="menu-grid">
+            <div class="menu-item lunch-item">
+              <div class="menu-item-top"><span class="item-name">Chicken</span><span class="item-price item-price-special">$8</span></div>
+              <p class="item-desc">Choose from Honey Chicken, Lemon Chicken or Stir-Fried Chicken with vegetables.</p>
+            </div>
+            <div class="menu-item lunch-item">
+              <div class="menu-item-top"><span class="item-name">Beef</span><span class="item-price item-price-special">$8</span></div>
+              <p class="item-desc">Sliced beef in black bean, ginger shallot or oyster sauce with seasonal vegetables.</p>
+            </div>
+            <div class="menu-item lunch-item">
+              <div class="menu-item-top"><span class="item-name">Pork</span><span class="item-price item-price-special">$8</span></div>
+              <p class="item-desc">Sweet &amp; Sour Pork or BBQ Pork with vegetables, served over your choice of rice.</p>
+            </div>
+            <div class="menu-item lunch-item">
+              <div class="menu-item-top"><span class="item-name">Vegetarian</span><span class="item-price item-price-special">$8</span></div>
+              <p class="item-desc">Stir-fried seasonal vegetables in garlic sauce or mixed mushroom with tofu.</p>
+            </div>
+            <div class="menu-item lunch-item">
+              <div class="menu-item-top"><span class="item-name">Prawn</span><span class="item-price item-price-special">$9</span></div>
+              <p class="item-desc">Garlic prawns, prawn fried rice or sweet chilli prawns. Great value for a weekday treat.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         POPULAR DISHES
+    ══════════════════════════════════════════ -->
+    <section class="popular section" id="popular" aria-labelledby="popular-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-label">Customer Favourites</span>
+          <h2 id="popular-heading">Most Loved Dishes</h2>
+          <p class="section-sub">These are the dishes our regulars come back for, week after week</p>
+        </div>
+
+        <div class="popular-grid">
+
+          <article class="dish-card" aria-label="Honey Chicken">
+            <div class="dish-emoji" aria-hidden="true">🍯</div>
+            <div class="dish-info">
+              <h3>Honey Chicken</h3>
+              <p>Our signature crispy battered chicken in golden house honey sauce. A crowd pleaser since day one.</p>
+              <span class="dish-price">$16.50</span>
+            </div>
+          </article>
+
+          <article class="dish-card" aria-label="Special Fried Rice">
+            <div class="dish-emoji" aria-hidden="true">🍚</div>
+            <div class="dish-info">
+              <h3>Special Fried Rice</h3>
+              <p>The benchmark of any Chinese kitchen. Ours has been perfected over decades in this same wok.</p>
+              <span class="dish-price">$14.50</span>
+            </div>
+          </article>
+
+          <article class="dish-card" aria-label="Singapore Noodles">
+            <div class="dish-emoji" aria-hidden="true">🍜</div>
+            <div class="dish-info">
+              <h3>Singapore Noodles</h3>
+              <p>Fragrant curry vermicelli with prawns, pork and egg — consistently one of our highest-ordered dishes.</p>
+              <span class="dish-price">$15.50</span>
+            </div>
+          </article>
+
+          <article class="dish-card" aria-label="Sweet & Sour Pork">
+            <div class="dish-emoji" aria-hidden="true">🥩</div>
+            <div class="dish-info">
+              <h3>Sweet &amp; Sour Pork</h3>
+              <p>Classic, comforting and always consistent. Our sweet &amp; sour has brought families back for generations.</p>
+              <span class="dish-price">$16.50</span>
+            </div>
+          </article>
+
+          <article class="dish-card" aria-label="Combination Chow Mein">
+            <div class="dish-emoji" aria-hidden="true">🍝</div>
+            <div class="dish-info">
+              <h3>Combination Chow Mein</h3>
+              <p>Crispy noodles beneath a rich combination sauce. A Friday night takeaway staple for Marsfield families.</p>
+              <span class="dish-price">$17.50</span>
+            </div>
+          </article>
+
+          <article class="dish-card" aria-label="Salt & Pepper Squid">
+            <div class="dish-emoji" aria-hidden="true">🦑</div>
+            <div class="dish-info">
+              <h3>Salt &amp; Pepper Squid</h3>
+              <p>Light, crispy and perfectly seasoned. The kind of dish that disappears the moment it hits the table.</p>
+              <span class="dish-price">$18.50</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         REVIEWS
+    ══════════════════════════════════════════ -->
+    <section class="reviews section" id="reviews" aria-labelledby="reviews-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-label">What People Say</span>
+          <h2 id="reviews-heading">Loved by the Community</h2>
+        </div>
+
+        <div class="reviews-grid">
+
+          <blockquote class="review-card">
+            <div class="review-stars" aria-label="5 stars">★★★★★</div>
+            <p>"We've been coming here for over 15 years. The honey chicken hasn't changed, and that's exactly why we keep coming back. It feels like home."</p>
+            <footer class="review-author">— Sarah L., Marsfield local</footer>
+          </blockquote>
+
+          <blockquote class="review-card">
+            <div class="review-stars" aria-label="5 stars">★★★★★</div>
+            <p>"Best value Chinese food near Macquarie Uni. The lunch specials are unreal — you simply cannot beat $8 for a meal this good."</p>
+            <footer class="review-author">— James T., University student</footer>
+          </blockquote>
+
+          <blockquote class="review-card">
+            <div class="review-stars" aria-label="5 stars">★★★★★</div>
+            <p>"Our whole office orders from here on Fridays. The combination chow mein and Singapore noodles are absolute legends. Never once been disappointed."</p>
+            <footer class="review-author">— Melissa R., Ryde office worker</footer>
+          </blockquote>
+
+          <blockquote class="review-card">
+            <div class="review-stars" aria-label="4 stars">★★★★★</div>
+            <p>"Real, authentic Chinese comfort food — not watered down, not Westernised beyond recognition. This is the real deal. The staff are always so warm too."</p>
+            <footer class="review-author">— David C., North Ryde resident</footer>
+          </blockquote>
+
+          <blockquote class="review-card">
+            <div class="review-stars" aria-label="5 stars">★★★★★</div>
+            <p>"I grew up eating here as a kid and now I bring my own kids. The spring rolls and dim sims are exactly as I remember. Some things should never change."</p>
+            <footer class="review-author">— Angela W., Meadowbank</footer>
+          </blockquote>
+
+          <blockquote class="review-card">
+            <div class="review-stars" aria-label="5 stars">★★★★★</div>
+            <p>"Prompt service, generous portions, and the flavours are always spot on. The salt and pepper squid is genuinely some of the best I've had in Sydney."</p>
+            <footer class="review-author">— Kevin S., West Ryde</footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         LOCATION + HOURS
+    ══════════════════════════════════════════ -->
+    <section class="location section" id="location" aria-labelledby="location-heading">
+      <div class="container location-grid">
+
+        <div class="location-info">
+          <span class="section-label">Find Us</span>
+          <h2 id="location-heading">Visit Marsfield Chinese Kitchen</h2>
+
+          <address class="address-block" aria-label="Restaurant address">
+            <div class="address-line">
+              <span class="info-icon" aria-hidden="true">📍</span>
+              <div>
+                <strong>6/1 Trafalgar Place</strong><br />
+                Marsfield NSW 2122<br />
+                <a href="https://maps.google.com/?q=1+Trafalgar+Place+Marsfield+NSW+2122" target="_blank" rel="noopener noreferrer" class="map-link">Get directions →</a>
+              </div>
+            </div>
+            <div class="address-line">
+              <span class="info-icon" aria-hidden="true">📞</span>
+              <div><a href="tel:0298685252">(02) 9868 5252</a></div>
+            </div>
+            <div class="address-line">
+              <span class="info-icon" aria-hidden="true">✉️</span>
+              <div><a href="mailto:hello@marsfieldchinesekitchen.com">hello@marsfieldchinesekitchen.com</a></div>
+            </div>
+          </address>
+
+          <div class="hours-table" role="table" aria-label="Opening hours">
+            <div class="hours-header" role="rowgroup">
+              <div role="row">
+                <span role="columnheader">Day</span>
+                <span role="columnheader">Lunch</span>
+                <span role="columnheader">Dinner</span>
+              </div>
+            </div>
+            <div role="rowgroup">
+              <div class="hours-row" role="row">
+                <span role="cell"><strong>Monday</strong></span>
+                <span role="cell" class="closed">Closed</span>
+                <span role="cell">5:00 – 9:30pm</span>
+              </div>
+              <div class="hours-row" role="row">
+                <span role="cell"><strong>Tue – Fri</strong></span>
+                <span role="cell">11am – 2:30pm</span>
+                <span role="cell">5:00 – 9:30pm</span>
+              </div>
+              <div class="hours-row" role="row">
+                <span role="cell"><strong>Saturday</strong></span>
+                <span role="cell">11am – 2:30pm</span>
+                <span role="cell">5:00 – 10:00pm</span>
+              </div>
+              <div class="hours-row" role="row">
+                <span role="cell"><strong>Sunday</strong></span>
+                <span role="cell">11am – 2:30pm</span>
+                <span role="cell">5:00 – 9:30pm</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Map Placeholder -->
+        <div class="map-placeholder" role="img" aria-label="Map showing location of Marsfield Chinese Kitchen at 1 Trafalgar Place, Marsfield NSW">
+          <div class="map-inner">
+            <div class="map-pin-wrapper" aria-hidden="true">
+              <div class="map-pin">📍</div>
+              <div class="map-ripple"></div>
+            </div>
+            <div class="map-label">Marsfield Chinese Kitchen</div>
+            <div class="map-address">6/1 Trafalgar Place, Marsfield NSW 2122</div>
+            <a href="https://maps.google.com/?q=1+Trafalgar+Place+Marsfield+NSW+2122" target="_blank" rel="noopener noreferrer" class="btn btn-outline map-btn">Open in Google Maps</a>
+          </div>
+          <div class="map-grid-overlay" aria-hidden="true"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         CONTACT
+    ══════════════════════════════════════════ -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-grid">
+
+        <div class="contact-intro">
+          <span class="section-label">Get In Touch</span>
+          <h2 id="contact-heading">We'd love to hear from you</h2>
+          <p>Questions about the menu, catering enquiries, or just want to say hello — drop us a message and we'll get back to you as soon as we can.</p>
+          <p>For the quickest response, give us a call on <a href="tel:0298685252"><strong>(02) 9868 5252</strong></a> during opening hours.</p>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+          <div class="form-group">
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" name="name" placeholder="e.g. Sarah Wong" autocomplete="name" required />
+            <span class="field-error" id="name-error" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email Address</label>
+            <input type="email" id="contact-email" name="email" placeholder="you@email.com" autocomplete="email" required />
+            <span class="field-error" id="email-error" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <select id="contact-subject" name="subject">
+              <option value="">— Select a topic —</option>
+              <option value="reservation">Table reservation</option>
+              <option value="catering">Catering enquiry</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">General question</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="5" placeholder="Tell us how we can help…" required></textarea>
+            <span class="field-error" id="message-error" aria-live="polite"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+          <div class="form-success" id="form-success" aria-live="polite" hidden>
+            ✅ Thanks! We'll get back to you soon.
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <span class="logo-chinese footer-chinese" lang="zh">寶多利</span>
+        <p>Marsfield Chinese Kitchen<br />Family-owned &amp; operated since we first opened our doors in Marsfield. Proudly serving the local community with food made from the heart.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#popular">Popular Dishes</a></li>
+          <li><a href="#location">Location &amp; Hours</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <p>
+          📍 6/1 Trafalgar Place, Marsfield NSW 2122<br />
+          📞 <a href="tel:0298685252">(02) 9868 5252</a><br />
+          ✉️ <a href="mailto:hello@marsfieldchinesekitchen.com">hello@marsfieldchinesekitchen.com</a>
+        </p>
+        <div class="social-links" aria-label="Social media links">
+          <a href="#" class="social-link" aria-label="Facebook page (coming soon)" rel="noopener">Facebook</a>
+          <a href="#" class="social-link" aria-label="Instagram page (coming soon)" rel="noopener">Instagram</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Marsfield Chinese Kitchen · 寶多利 · All rights reserved · <span class="footer-tagline">Made with ❤️ by a local family, for local families.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top of page" title="Back to top">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
